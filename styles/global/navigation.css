@@ -1,0 +1,13 @@
+/*author:     Paiol Comunicação Interativa - Leonel Folmer
+  date:      
+  customer:     
+*/
+
+/*menu elements
+-------------------------------------*/
+#top-navigation { border:#000 1px solid; }
+
+#left-navigation { float:left; width:200px; display:inline-block; padding:20px; }
+#left-navigation ul { padding:0px; margin:0px; }
+#left-navigation ul li { list-style:none; }
+#left-navigation ul li a, #left-navigation a { text-decoration:none; }

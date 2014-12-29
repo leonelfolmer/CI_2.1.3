@@ -1,0 +1,127 @@
+/*author:     Paiol Comunicação Interativa - Leonel Folmer
+  date:      
+  customer:     
+*/
+
+
+
+
+/*warning for non javascript users
+-------------------------------------*/
+noscript p { background: #f00; font-size: 1em; padding: 10px 0; width: 100%; text-align: center; position: fixed; z-index: 40; color:#fff; }
+
+/*wrapper
+-------------------------------------*/
+body {}
+#wrapper {width:974px; margin: 0 auto; border:#000 1px solid; }
+
+/*header
+-------------------------------------*/
+#header { border:#000 1px solid; }
+.accessibility {}
+.brand {}
+#contact { }
+
+
+/*main
+-------------------------------------*/
+#main { border:#000 1px solid; }
+
+/*content
+-------------------------------------*/
+#content { border:#000 1px solid; display:table; }
+
+/*content item
+-------------------------------------*/
+.artigo { float:left; }
+.artigo h4 { }
+.artigo img { clear:both; }
+.artigo a { }
+
+/*content detalhe
+-------------------------------------*/
+#detalhes { border:#000 1px solid; display:table; }
+#detalhes h3, #detalhes h4 { }
+#detalhes img { }
+
+/*columns
+-------------------------------------*/
+#left-col {  }
+#center-col {  }
+#right-col {  }
+
+/*gallery
+-------------------------------------*/
+#Galeria { visibility:hidden!important }
+
+/*footer
+-------------------------------------*/
+#footer { border:#000 1px solid; }
+#footer .copyright {}
+
+/*links
+-------------------------------------*/
+a {}
+a:hover {}
+
+/*form elements
+-------------------------------------*/
+form {}
+legend {}
+fieldset {}
+label {}
+input {}
+textarea {}
+button {}
+
+/*contact
+-------------------------------------*/
+#contact {}
+#contact form {}
+#contact form fieldset{}
+#contact form label{ display: inline-block; vertical-align:top; width:150px; }
+#contact textarea {}
+#contact form input[type="text"] { margin:0 10px 10px 0; }
+#contact form input[type="submit"] {}
+#contact form button { margin-left:150px;}
+
+#contact textarea, #contact input { width:250px;}
+
+/*search
+-------------------------------------*/
+.accessibility form input[type="text"] { float:left; width:130px; margin-right:5px; }
+.accessibility a { text-decoration:none; }
+
+/*tableless
+-------------------------------------*/
+#table { display: table }
+#row  { display: table-row }
+#left, #middle, #right { display: table-cell }
+
+/*<!--[if IE 7]>
+<style type="text/css">
+#left, #middle, #middle-right { float:left }
+</style>
+<![endif]-->*/
+
+/*<div id="table">
+<div id="row">
+                  
+<div id="left">
+<h4>Left</h4>
+<p>...</p>
+</div>
+                  
+<div id="middle">
+<h4>Middle</h4>
+<p>...</p>
+</div>
+                  
+<div id="right">
+<h4>Right</h4>
+<p>...</p>
+</div>
+                  
+</div>
+</div>*/
+
