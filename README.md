@@ -7,10 +7,10 @@ Back end CMS bootstrap to accelerate a project with CI, MySQL, Twitter Bootstrap
 Homepage: http://portfolio.leonelfolmer.com/CI_2.1.3/
 
 
-Users: http://portfolio.leonelfolmer.com/CI_2.1.3/usuario/
+Users: http://portfolio.leonelfolmer.com/CI_2.1.3/usuario/aut
 
 
-Administration: http://portfolio.leonelfolmer.com/CI_2.1.3/admin/
+Administration: http://portfolio.leonelfolmer.com/CI_2.1.3/admin/aut
 
 
 Administrator:
