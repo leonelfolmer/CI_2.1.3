@@ -7,6 +7,7 @@ Homepage: http://www.leonelfolmer.com/portfolio/CI_2.2.6/
 Administration:
 --
 Users: http://www.leonelfolmer.com/portfolio/CI_2.2.6/usuario/aut
+
 User: admin@03875498574.com
 Password: admin
 
