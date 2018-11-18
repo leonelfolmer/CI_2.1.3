@@ -246,11 +246,10 @@
                   <?php echo form_open(base_url().'admin/artigos/pesquisa_categorias'); ?>
 		    		<div class="control-group">
 		                  <div class="controls">
-		                     <?php 
-								foreach($categorias as $categoria):
-									$drop_filter[$categoria->nome] = $categoria->nome;
-								endforeach;
-							 ?>
+                        <?php foreach($categorias as $categoria): ?>
+                          <?php $drop_filter[$categoria->nome] = $categoria->nome; ?>
+                        <?php endforeach; ?>
+							 
 							 
 		                     <?php echo form_dropdown('pesquisa',$drop_filter,'', 'onchange="this.form.submit();"'); ?>
 		                     <span class="help-inline" style="padding-bottom: 5px;">Selecione a categoria</span>    
@@ -299,18 +298,15 @@
                   
                   <td>
                   	<!-- staus da categoria -->
-					<?php 
-                      if ($artigo->status == "Ativo")
-                      {
-                          ?> <span class="label label-success"><?php echo $artigo->status; ?></span> <?php     
-                      }
-					  
-                      else
-                      {
-                          ?> <span class="label label-important"><?php echo $artigo->status; ?></span> <?
-                      }
-                    ?>
-                  	
+                    <?php if ($artigo->status == "Ativo") { ?>
+                          <span class="label label-success">
+                            <?php echo $artigo->status; ?>
+                          </span>     
+                    <?php } else { ?>
+                          <span class="label label-important">
+                            <?php echo $artigo->status; ?>  
+                          </span> 
+                  	  <?php } ?>
                     
                   </td>
                   <td>

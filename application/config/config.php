@@ -15,8 +15,8 @@
 |
 */
 
-$config['base_url']	= 'http://portfolio.leonelfolmer.com/CI_2.1.3/';
-
+//$config['base_url']	= 'http://portfolio.leonelfolmer.com/CI_2.2.6/';
+$config['base_url']	= 'http://localhost:8080/leonelfolmer.com/public_html/portfolio/CI_2.2.6/';
 
 /*
 |--------------------------------------------------------------------------

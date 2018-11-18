@@ -38,6 +38,9 @@ class Contato extends CI_Controller {
         $this->load->view('admin/elementos/html_header', $data);
         $this->load->view('admin/elementos/menu');
 
+        // ckfinder path
+        $ckfinder_path = base_url() . 'js/admin/global/ckfinder.html';
+
         // configuração ckeditor's
         $this->data['ckeditor'] = array(
             //ID da textarea que vai ser substituida
@@ -50,12 +53,12 @@ class Contato extends CI_Controller {
                 'height' => '150px',
                 'language' => 'pt-br', // tradução
                 // ckfinder path
-                'filebrowserBrowseUrl' 			=> '/CI_2.1.3/js/admin/global/ckfinder.html',
-                'filebrowserImageBrowseUrl' 	=> '/CI_2.1.3/js/admin/global/ckfinder.html',
-                'filebrowserFlashBrowseUrl' 	=> '/CI_2.1.3/js/admin/global/ckfinder.html',
-                'filebrowserUploadUrl' 			=> '/CI_2.1.3/js/admin/global/ckfinder.html',
-                'filebrowserImageUploadUrl' 	=> '/CI_2.1.3/js/admin/global/ckfinder.html',
-                'filebrowserFlashUploadUrl' 	=> '/CI_2.1.3/js/admin/global/ckfinder.html',
+                'filebrowserBrowseUrl'      => $ckfinder_path,
+                'filebrowserImageBrowseUrl' => $ckfinder_path,
+                'filebrowserFlashBrowseUrl' => $ckfinder_path,
+                'filebrowserUploadUrl'      => $ckfinder_path,
+                'filebrowserImageUploadUrl' => $ckfinder_path,
+                'filebrowserFlashUploadUrl' => $ckfinder_path,
                 'filebrowserWindowWidth' 		=> '800',
                 'filebrowserWindowHeight' 		=> '538',
                 'toolbar' => array(// configurando toolbar customizado

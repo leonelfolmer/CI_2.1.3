@@ -210,15 +210,15 @@
                         <td><?php echo $categoria->nome; ?></td>
                         <td>
                             <!-- staus da categoria -->
-                            <?php
-                            if ($categoria->status == "Ativo") {
-                                ?> <span class="label label-success"><?php echo $categoria->status; ?></span> <?php
-                            } else {
-                                ?> <span class="label label-important"><?php echo $categoria->status; ?></span> <?
-                            }
-                            ?>
-
-
+                            <?php if ($categoria->status == "Ativo") { ?>
+                                <span class="label label-success">
+                                    <?php echo $categoria->status; ?>
+                                </span> 
+                            <?php } else { ?>
+                                <span class="label label-important">
+                                    <?php echo $categoria->status; ?>    
+                                </span> 
+                            <?php } ?>
                         </td>
                         <td>
                             <a href="<?php echo base_url(); ?>admin/categorias/alterar/<?php echo $categoria->id; ?>" class="btn btn-mini btn-primary"><i class="icon-edit icon-white"></i> Alterar</a>					

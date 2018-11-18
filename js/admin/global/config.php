@@ -7,34 +7,30 @@ function CheckAuthentication()
 	$ci_session = unserialize($ci_session);
 	$ci_session_id = $ci_session['session_id'];
 	
-	$dbhost = '';
-	$dbuser = '';
-	$dbpass = '';
-	$dbnya = '';
+
+	$dbhost = '127.0.0.1';
+	$dbuser = 'root';
+	$dbpass = 'admin';
+	$dbnya = 'CI_2_2_6';
 	
-	
-	
-	
-	
-	
-	$ci_session_con = mysql_connect($dbhost, $dbuser, $dbpass); 
+	$ci_session_con = mysqli_connect($dbhost, $dbuser, $dbpass); 
 		
 		if (!$ci_session_con) 
 		{
 			die("Erro na conexão!"); 
 		}
 
-			// se for necessário, limitar a quntidade de usuários logados, '$ci_session_id' LIMIT 1
+			// se for necessário, limitar a quantidade de usuários logados, '$ci_session_id' LIMIT 1
 			$query = "SELECT user_data FROM ci_sessions WHERE session_id = '$ci_session_id'";
-			mysql_select_db($dbnya, $ci_session_con);
-			$result = mysql_query($query, $ci_session_con);
+			mysqli_select_db($ci_session_con, $dbnya);
+			$result = mysqli_query($ci_session_con, $query);
 			if (!$result) 
 			{
 				die("Erro!");
 			}
 
-  $row = mysql_fetch_assoc($result);
-  $data = unserialize($row['user_data']); 
+  $row = mysqli_fetch_assoc($result);
+  $data = unserialize($row['user_data']);
 
   if( $data['group_id'] == '1' || $data['group_id'] == '2' )  // $data['group_id'] == '3'...
   {

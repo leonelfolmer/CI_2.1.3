@@ -167,17 +167,13 @@
      
                   <td>
                   	<!-- staus do usuário -->
-					<?php 
-                      if ($user['active'] == '1')
-                      {
-                          ?> <span class="label label-success">Ativo</span> <?php     
-                      }
+					         <?php if ($user['active'] == '1') { ?> 
+                     <span class="label label-success">Ativo</span> 
+                   <?php } ?>
 					  
-                      if ($user['active'] == '0')
-                      {
-                          ?> <span class="label label-important">Inativo</span> <?
-                      }
-                    ?> 
+                   <?php if ($user['active'] == '0') { ?>
+                        <span class="label label-important">Inativo</span> 
+                    <?php } ?> 
                   </td>
 
                   <td>

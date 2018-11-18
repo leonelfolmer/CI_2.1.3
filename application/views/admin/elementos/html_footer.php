@@ -46,7 +46,7 @@
      
      
     <footer>
-        <p>Versão: 2.1.3 &copy; <a href="http://about.leonelfolmer.com" title="Leonel Folmer">about.leonelfolmer.com</a></p>
+        <p>Versão: 2.6.6 &copy; <a href="http://leonelfolmer.com" title="Leonel Folmer">about.leonelfolmer.com</a></p>
     </footer><!-- end of footer -->
     
     

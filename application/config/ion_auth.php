@@ -27,7 +27,7 @@
 	/**
 	 * Site Title, example.com
 	 */
-	$config['site_title']		   = "http://portfolio.leonelfolmer.com/CI_2.1.3";
+	$config['site_title']		   = "http://portfolio.leonelfolmer.com/CI_2.2.6";
 	
 	/**
 	 * Admin Email, admin@example.com
