@@ -1,35 +1,25 @@
-CI_2.1.3
+CI_2.2.6
 ========
 
-Back end CMS bootstrap to accelerate a project with CI, MySQL, Twitter Bootstrap + AJAX CKFinder integration example.
+Homepage: http://www.leonelfolmer.com/portfolio/CI_2.2.6/
 
 
-Homepage: http://pub.leonelfolmer.com/CI_2.1.3/
-
-
-Users: http://pub.leonelfolmer.com/CI_2.1.3/usuario/aut
-
-
-Administration: http://pub.leonelfolmer.com/CI_2.1.3/admin/aut
-
-
-Administrator:
+Administration:
 --
-User: ciclano@03875498574.com.br
+Users: http://www.leonelfolmer.com/portfolio/CI_2.2.6/usuario/aut
+
+User: admin@03875498574.com
+Password: admin
 
 
-Password: ciclano
-
-
-Users:
+Users area:
 --
-User: fulano@42424242342.com.br
+
+Users: http://www.leonelfolmer.com/portfolio/CI_2.2.6/usuario/aut
+
+User: user1@42424242342.com
+Password: user1
 
 
-Password: fulano
-
-
-User: beltrano@0958404323.com.br
-
-
-Password: beltrano
+User: user2@0958404323.com
+Password: user2

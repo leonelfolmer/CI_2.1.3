@@ -54,7 +54,7 @@ class Dashboard extends CI_Controller {
     	
     	// Load the file helper and write the file to your server
     	$this->load->helper('file');
-    	write_file('/dev/CI_2.1.3/bd.zip', $backup);
+    	write_file('/dev/CI_2.2.6/bd.zip', $backup);
 
     	// Load the download helper and send the file to your desktop
     	$this->load->helper('download');
