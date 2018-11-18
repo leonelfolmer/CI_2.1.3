@@ -1,6 +1,6 @@
 /* Leonel Folmer */
   Author: Leonel folmer
-  Site: http://about.leonelfolmer.com
+  Site: http://leonelfolmer.com
   Location: Curitiba - Brazil
   
   Standards: *HTML5, CSS3
